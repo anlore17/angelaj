@@ -14,17 +14,19 @@
 
 /*ETIQUETAS*/
 body{
-background-image: url(../img/fondo.jpg);
-background-repeat: no-repeat;
-background-size: cover;
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
 }
 
 h1{
-font-family: 'Angsana New', cursive;
-color: black;
-margin-left: 10px;
-font-size: 60px;
-text-align: center; 
+	color: #000;
+	margin-left: 10px;
+	font-size: 16px;
+	text-align: center;
+	font-weight: 100;
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h2{
@@ -47,13 +49,17 @@ header{
 	width: 1000px;
 	height: 120 px;
 	background: rgba(255, 255, 255, 10,70);
+	text-transform: capitalize;
 }
 
 nav{
-width: 2000pxpx;
-height: 50px;
-background: blue;
-border-radius: 10px;
+	width: 1000 px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: #7EBAEB;
+	font-family: sans-serif;
+	clear: none;
+	float: none;
 
 }
 ul{
@@ -65,10 +71,12 @@ li{
 	float: left;
 	list-style-type: none;
 	padding: 10px;
-	background: white;
 	margin: 3px;
 	border-radius: 10px;
-	box-shadow: 0 0 10px white inset; 
+	box-shadow: 0 0 10px white inset;
+	font-family: sans-serif;
+	color: #FFF;
+	background-color: #C4EDFB;
 
 }
 
@@ -92,13 +100,13 @@ aside{
 }
 
 footer{
-width: 1000px;
-height: 70px;
-background: maroon;
-float: left;
-margin-top: 20px;
-border-radius: 10px;
-margin-bottom: 20px;
+	width: 1000px;
+	height: 70px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	background-color: #7CBBEF;
 }
 
 p{
@@ -120,24 +128,15 @@ p{
 
 .menu:link{color: black; text-decoration: none;}
 .menu:visited{color: black; text-decoration: none;}
-.menu:hover{color: black; text-decoration: none; text-shadow: 0 0 13px black;}
-.menu:active{color: black; text-decoration: none;}
+.menu:hover{
+	color: #FFF;
+	text-decoration: none;
+	text-shadow: 0 0 13px black;
+}
+.menu:active{
+	color: #CCC;
+	text-decoration: none;
+	background-color: #98D0EF;
+}
 
 /*SEUDO CLASES*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
